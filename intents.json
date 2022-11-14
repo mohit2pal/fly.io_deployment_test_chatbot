@@ -1,45 +1,84 @@
 {
-	"intents": 
-	[
-				{
-			"tag": "greeting",
-			"patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-			"responses": ["Hello, how can I help?", "Hello, what is your Problem?", "Hi there, how can I help?"]
-        		},
-        		{
-            "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "No, that's it"],
-            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Bye! Hope you don't see me soon"]
-                },
-                {
-            "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-            "responses": ["Happy to help!", "Any time!", "My pleasure"]
-                },
-                {
-            "tag": "reservation in educational instituations",
-            "patterns": ["reservation", "Reservations", "reservations", "Reservation"],
-            "responses": [" Notwithstanding anything in any other law for the time being in force, there shall be reservation of posts in direct recruitment out of the sanctioned strength in teachers' cadre in a Central Educational Institution to the extent and in the manner as may be specified by the Central Government by notification in the Official Gazette."]
-                },
-                {
-            "tag": "talaq",
-            "patterns": ["Talaq", "talaq", "Divorce", "divorce"],
-            "responses": ["Any pronouncement of talaq by a Muslim husband upon his wife, by words, either spoken or written or in electronic form or in any other manner whatsoever, shall be void and illegal."]
-                },
-                {
-            "tag": "talaq punishment",
-            "patterns": ["pronouncing talaq", "saying talaq", "divorce not legally"],
-            "responses": ["Any Muslim husband who pronounces talaq referred to in section 3 upon his wife shall be punished with imprisonment for a term which may extend to three years, and shall also be liable to fine."]
-                },
-                {
-            "tag": "Fraudulent Deposits",
-            "patterns": ["Fraudulent", "Deposit"],
-            "responses": ["No deposit taker, while accepting deposits pursuant to a Regulated Deposit Scheme, shall commit any fraudulent default in the repayment or return of deposit on maturity or in rendering any specified service promised against such deposit."]
-                },
-                {
-            "tag": "Information of business by deposit taker",
-            "patterns": ["Information" ,"business by deposit"],
-            "responses": ["Every deposit taker which commences or carries on its business as such on or after the commencement of this Act shall intimate the authority referred to in sub-section (1) of section 9 about its business in such form and manner and within such time, as may be prescribed."]
-                }
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
         ]
-}
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
