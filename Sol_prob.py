@@ -166,13 +166,13 @@ while True:
   
  
  
-# def get_response(message):
-#   tag = predict_intent_tag(message)
-#   intent = get_intent(tag)
-#   response = random.choice(intent['responses'])
+def get_response(message):
+  tag = predict_intent_tag(message)
+  intent = get_intent(tag)
+  response = random.choice(intent['responses'])
   
-#   # if(tag == 'goodbye'):
-#   #   return "I do not understand..."
-#   # else:
-#   return response
+  # if(tag == 'goodbye'):
+  #   return "I do not understand..."
+  # else:
+  return response
   
